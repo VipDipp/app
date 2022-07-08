@@ -78,7 +78,7 @@ export default function Home() {
           <a>Your {symbol} balance: {tokenBalance} buy more!!!</a>
           <a>OwhBalance: {owhBalance} {symbol}</a>
             {ethAmount != "" ?
-            <a className="whitespace-nowrap">You'll get {ethAmount/price} {symbol}</a>
+            <a className="whitespace-nowrap">You&apos;ll get {ethAmount/price} {symbol}</a>
             :
             null
             }
